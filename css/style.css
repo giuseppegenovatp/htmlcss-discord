@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*********
+UTILITIES
+************/
+.bg_blue {
+  background-color: #00008b;
+}
+.bg_white {
+  background-color: #ffffff;
+}
+.bg_gray {
+  background-color: #d3d3d3;
+}
+
+.padding-top-bot-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*****
+ DEBUG 
+ *****/
+
+.debug {
+  width: 700px;
+  height: 500px;
+}
+
+nav.debug {
+  border: 2px dotted black;
+  height: 50px;
+}
+
+nav.debug > div {
+  border: 2px dotted black;
+}
+
+div.container {
+  border: 2px dotted black;
+}
+
+div.container > div {
+  border: 2px dotted black;
+}
+
+.big_content_box {
+  background-color: #228b22;
+  height: 895px;
+}
+
+/***** DEBUG  *****/
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/***** inizio HEADER  *****/
+header {
+  background-color: #255ee9;
+  padding: 10px;
+}
+
+nav.container {
+  background-color: #daa520;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.container > div {
+  padding: 12px 10px;
+}
+
+.nav_link > ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_link > ul > li {
+  list-style-type: none;
+}
+
+.nav_link > ul > li > a {
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    font-size:15px;
+    
+}
+
+.nav_logo {
+  flex: 1;
+
+}
+
+.nav_link {
+  flex: 2;
+}
+
+.nav_login {
+  flex: 1;
+  text-align: end;
+}
+
+.btn_login {
+    all: unset;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/***** FINE HEADER * *****/
+
+/***** inizio hero Section  *****/
+.hero-section {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+
+
+
+.hero-section-box {
+  height: 400px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.large_content_box {
+  background-color: #1e90ff;
+  flex: 3;
+}
+
+.small_content_box {
+  background-color: #ffc0cb;
+  flex: 2;
+}
+
+.reverse-order {
+  order: 1;
+}
+
+/***** fine Section  *****/
+
+/***** inizio Foteer  *****/
+footer {
+  background-color: #23272a;
+  border-bottom: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.big_box_footer {
+  background-color: #f08080;
+  height: 550px;
+}
+
+.row_box_footer {
+  display: flex;
+  background-color: #20b2aa;
+}
+
+.footer_row {
+  flex: 1;
+}
+
+.container-footer_nav {
+  background-color: #23272a;
+  padding-top: 30px;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7fffd4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/***** fine FOteer  *****/
