@@ -52,11 +52,6 @@ div.container > div {
   border: 2px dotted black;
 }
 
-.big_content_box {
-  background-color: #228b22;
-  height: 895px;
-}
-
 /***** DEBUG  *****/
 
 
@@ -158,8 +153,8 @@ nav.container > div {
     font-size: 18px;
 }
 
-.bt-call-to-action > i {
-    padding-right: 5px;
+.bt-call-to-action > i, .big_content_cta > button > i {
+    padding-right: 8px;
 }
 
 .bt-call-to-action {
@@ -213,6 +208,47 @@ button.bt-call-to-action.bt-black {
 .reverse-order {
   order: 1;
 }
+
+/* Big Box Section */
+
+.container-big-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container-big-flex > h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.container-big-flex > p {
+  font-size: 18px;
+}
+
+.big_content_cta {
+  background-image: url(../img/stars.svg);
+}
+
+
+.big_content_cta > h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.big_content_cta > button {
+  all: unset;
+  background-color: #7288da;
+  padding: 10px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+
+/* /Big Box Section */
+
 
 /***** fine Section  *****/
 
