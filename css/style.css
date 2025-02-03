@@ -185,13 +185,25 @@ button.bt-call-to-action.bt-black {
 }
 
 .large_content_box {
-  background-color: #1e90ff;
   flex: 3;
+  /*IMMAGINE SEMPRE CENTRATA */
+  text-align: center;
 }
 
 .small_content_box {
-  background-color: #ffc0cb;
-  flex: 2;
+  flex: 1;
+}
+
+.small_content_box h2 {
+  font-size: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+.small_content_box p {
+  padding-bottom: 30px;
+  line-height: 1.5;
 }
 
 .reverse-order {
