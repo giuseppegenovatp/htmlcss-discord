@@ -56,9 +56,9 @@ UTILITIES
   border: 2px dotted black;
 } */
 
-div.container > div {
+/* div.container > div {
   border: 2px dotted black;
-}
+} */
 
 /***** DEBUG  *****/
 
@@ -268,16 +268,6 @@ footer {
   padding-top: 20px;
 }
 
-
-.row_box_footer {
-  display: flex;
-  background-color: #20b2aa;
-}
-
-.footer_row {
-  flex: 1;
-}
-
 .container-footer_nav {
   background-color: #23272a;
   padding-top: 30px;
@@ -304,8 +294,39 @@ footer {
   padding-left: 5px;
 }
 
-.social > i {
+.social > a > i {
   padding-right: 15px;
+  color: #ffffff;
 }
+
+.row_box_footer {
+  display: flex;
+}
+
+.footer_row {
+  flex: 1;
+}
+
+.footer_row ul {
+  list-style-type: none;
+}
+
+.footer_row ul > li {
+  padding-bottom: 20px;
+
+}
+
+.footer_row ul > li:first-child {
+  color: #7288da;
+  font-weight: bold;
+}
+
+.footer_row ul > li > a {
+  color: #ffffff;
+  text-decoration: none;
+
+  font-size: 12px;
+}
+
 
 /***** fine FOteer  *****/
