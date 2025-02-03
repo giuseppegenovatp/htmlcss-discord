@@ -18,7 +18,7 @@ UTILITIES
   background-color: #ffffff;
 }
 .bg_gray {
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
 
 .padding-top-bot-50 {
@@ -133,7 +133,7 @@ nav.container > div {
 .hero-section {
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 .hero-section-box {
@@ -142,12 +142,14 @@ nav.container > div {
   height: 500px;
   text-align: center;
   padding-top: 100px;
+
 }
 
 .title-hero-section {
     font-size: 40px;
     padding-bottom: 25px;
     color: #ffffff;
+    font-weight:bold ;
 }
 
 .subtitle-hero-section {
@@ -198,6 +200,8 @@ button.bt-call-to-action.bt-black {
   font-size: 40px;
   padding-bottom: 30px;
   padding-top: 30px;
+  font-weight: 600;
+
 
 }
 
