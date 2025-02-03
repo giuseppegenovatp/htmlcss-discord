@@ -254,7 +254,6 @@ button.bt-call-to-action.bt-black {
 /***** inizio Foteer  *****/
 footer {
   background-color: #23272a;
-  border-bottom: 1px solid white;
   padding-top: 10px;
   padding-bottom: 40px;
   text-align: justify;
@@ -266,18 +265,6 @@ footer {
 
 .big_box_footer, .row_box_footer  {
   padding-top: 20px;
-}
-
-.container-footer_nav {
-  background-color: #23272a;
-  padding-top: 30px;
-}
-
-.footer_nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: #7fffd4;
-  padding: 20px 0;
 }
 
 .big_box_footer h4 {
@@ -324,9 +311,28 @@ footer {
 .footer_row ul > li > a {
   color: #ffffff;
   text-decoration: none;
-
   font-size: 12px;
 }
 
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid #7288da;
+}
+
+.container-footer_nav {
+  background-color: #23272a;
+}
+
+.register-bt_nav {
+  all: unset;
+  background-color: #7288da;
+  padding: 10px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 15px;
+}
 
 /***** fine FOteer  *****/
