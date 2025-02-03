@@ -59,6 +59,8 @@ div.container > div {
 
 /***** DEBUG  *****/
 
+
+
 .container {
   width: 70%;
   margin: 0 auto;
@@ -120,21 +122,57 @@ nav.container > div {
     font-weight: 600;
 }
 
+
 /***** FINE HEADER * *****/
 
-/***** inizioo hero Section  *****/
+/* STYLE CONTENT HERO SECTION */
+
 .hero-section {
   background-image: url(../img/jumbo.png);
   background-size: cover;
 }
 
-
-
 .hero-section-box {
-  height: 400px;
   width: 60%;
   margin: 0 auto;
+  height: 500px;
+  text-align: center;
 }
+
+.title-hero-section {
+    font-size: 40px;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+
+.subtitle-hero-section {
+    color: #ffffff;
+    line-height:1.5;
+    font-size: 18px;
+}
+
+.bt-call-to-action > i {
+    padding-right: 5px;
+}
+
+.bt-call-to-action {
+    all: unset;
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+button.bt-call-to-action.bt-white {
+    background-color: #ffffff;
+}
+
+button.bt-call-to-action.bt-black {
+    background-color: #23272a;
+    color: white;
+}
+
+/* /STYLE CONTENT HERO SECTION */
 
 .container-flex {
   display: flex;
