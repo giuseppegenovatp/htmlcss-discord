@@ -229,12 +229,13 @@ button.bt-call-to-action.bt-black {
 
 .big_content_cta {
   background-image: url(../img/stars.svg);
+  background-repeat: repeat-x;
 }
 
 
 .big_content_cta > h3 {
   font-size: 30px;
-  margin-bottom: 30px;
+  padding: 50px 20px 50px 20px;
 }
 
 .big_content_cta > button {
