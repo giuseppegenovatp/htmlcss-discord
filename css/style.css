@@ -40,9 +40,9 @@ nav.debug {
   height: 50px;
 }
 
-nav.debug > div {
+/* nav.debug > div {
   border: 2px dotted black;
-}
+} */
 
 div.container {
   border: 2px dotted black;
@@ -73,9 +73,9 @@ header {
 }
 
 nav.container {
-  background-color: #daa520;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav.container > div {
@@ -116,10 +116,13 @@ nav.container > div {
 .btn_login {
     all: unset;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 12px;
     border-radius: 30px;
     font-size: 15px;
-    font-weight: 600;
+    width: 75px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -130,6 +133,7 @@ nav.container > div {
 .hero-section {
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position: bottom;
 }
 
 .hero-section-box {
@@ -137,11 +141,12 @@ nav.container > div {
   margin: 0 auto;
   height: 500px;
   text-align: center;
+  padding-top: 100px;
 }
 
 .title-hero-section {
     font-size: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     color: #ffffff;
 }
 
@@ -161,6 +166,7 @@ nav.container > div {
     padding: 15px;
     border-radius: 40px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 button.bt-call-to-action.bt-white {
